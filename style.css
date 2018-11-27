@@ -1,0 +1,167 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	font-family: sans-serif;
+	text-align: left;
+	font-size: 12px;
+}
+
+#main{
+	width: 85%;
+	height: 100%;
+	margin-left: 10%; /*левое поле-отступ*/
+	margin-right: 5%; /*правое поле-отступ*/
+}
+
+#menu{
+	/*все ниже для того, чтобы footer был приклеен к низу*/
+	box-sizing: border-box;
+	min-height: 100%;
+	padding-bottom: 50px; /*50px - высота footer + 10px*/
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+h1{
+	height: 50px;
+	color: #2a670c;
+}
+
+h2{
+	height: 40px;
+	color: #2a670c;
+}
+
+/*ссылка на список авторов*/
+#aa{
+	font-size: 21px;
+	color: #1c4e0a;
+	text-decoration: none;
+	border: 2px solid #70b05a;
+}
+
+/*ссылка на главную страницу*/
+#anb{
+	font-size: 24px;
+	color: #1f65a0;
+	text-decoration: none;
+}
+
+/*фото библиотеки в шапке*/
+#foto{
+	height: 230px;
+	width: 320px;
+	float: left;
+}
+
+/*заголовок сайта и данные шапки*/
+#text{
+	height: 230px;
+	width: 35%;
+	float: left;
+	clear: right;
+	text-align: right;
+	color: #0c3d67;
+}
+
+/*фото книг в шапке*/
+#books{
+	height: 230px;
+	width: 266px;
+	float: right;
+}
+
+/*блок поиска*/
+#search{
+	width: 100%;
+	height: 30px;
+	float: left;
+	clear: left;
+}
+
+/*блок ввода пароля администратора*/
+#admin{
+	width: 100%;
+	float: left;
+	clear: left;
+}
+
+/*блок-ссылка на список авторов*/
+#autors{
+	width: 100%;
+	height: 25px;
+	float: left;
+	text-align: right;
+	clear: both;
+}
+
+/*блок контента*/
+#content{
+	width: 100%;
+	float: right;
+}
+
+/*блоки книг (по 4 книги в строке)*/
+#b1, #b2, #b3, #b4{
+	width: 280px;
+	height: 450px;
+	float: left;
+}
+
+/*блок информации о книге на странице книги*/
+#booki{
+	width: 35%;
+	height: 550px;
+	float: right;
+}
+
+/*блок фото книги на странице книги*/
+#bookf{
+	width: 45%;
+	height: 550px;
+	float: right;
+}
+
+/*блок для добавления комментария к книге*/
+#comment{
+	width: 80%;
+	height: 300px;
+	float: right;
+	clear: both;
+}
+
+/*блоки уже добавленых комментариев*/
+#cc{
+	width: 85%;
+	height: 150px;
+	float: right;
+	clear: both;
+}
+
+/*блоки для вывода автора на странице списка всех авторов*/
+#autor{
+	width: 20%;
+	float: left;
+}
+
+/*блок низа сайта*/
+#footer{
+	width: 100%;
+	background-color: pink;
+	color: grey;
+	height: 40px;
+	margin-top: -40px; /*для того, чтобы footer был приклеен к низу*/
+	clear: right;
+	text-align: center;
+}
